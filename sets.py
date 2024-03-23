@@ -1,0 +1,16 @@
+a={10,20,39,"priya","olive"}
+a.add(200)
+print(a)
+a.update([60,61])
+print(a)
+a.remove(39)
+print(a)
+a.pop()
+print(a)
+b={"john","priya"}
+print(a.union(b))
+print(a.intersection(b))
+print(a.difference(b))
+e=frozenset(a)
+print(type(e))
+print(e)
